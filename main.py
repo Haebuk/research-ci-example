@@ -1,4 +1,6 @@
 def helloworld(a):
-    print(f"hello world! {a}")# hmm
+    msg = f"hello world! {a}"  # hmm
+    print(msg)
+    return msg
 if __name__ == "__main__":
     helloworld("haebuk")
